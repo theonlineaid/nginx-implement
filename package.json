@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "``` docker run --name bootstrap -v bootstrap:/usr/share/nginx/html -d -p 8000:80 nginx docker exec -it nginx-container ls /usr/share/nginx/html/ docker cp /pcpath/bootstrap/. nginx-container:/usr/share/nginx/html/ ```",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
